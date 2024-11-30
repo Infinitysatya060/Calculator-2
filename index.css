@@ -1,0 +1,47 @@
+.cal-container{
+    border: 5px solid black;
+    height: 550px;
+    width: 340px;
+    margin:  0 auto;
+    margin-top: 2%;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+#inptbox{
+    width: 300px;
+    height: 130px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    border-radius: 10px;
+    font-size: 3rem;
+    background-color: rgb(30, 42, 42);
+    color: white;
+    outline: none;
+    border: none;
+   
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.row button{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    background-color: chocolate;
+    box-shadow: 1px 1px 10px 2px black;
+}
+.row button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
